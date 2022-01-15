@@ -1,9 +1,12 @@
+#pip install googletrans
+#pip install SpeechRecognition
 import googletrans
 import speech_recognition as sr
 import gtts
 import playsound
 recognizer=sr.Recognizer()
 translator=googletrans.Translator()
+#involve a menu using switch and ask user to enter the languages
 lang_input="en-IN"
 lang_output="te"
 try:
